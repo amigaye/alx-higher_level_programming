@@ -6,7 +6,7 @@ This module is composed by a class that defines a Rectangle
 
 class Rectangle:
     """ Class that defines a rectangle """
-    
+
     def __init__(self, width=0, height=0):
         """ Method that initializes the instance
 
@@ -83,15 +83,14 @@ class Rectangle:
 
         return self.width * self.height
 
+    def perimeter(self):
+        """ method that calculates the Rectangle area
 
-        def perimeter(self):
-            """ method that calculates the Rectangle area
+        Returns:
+            rectangle perimeter
+        """
 
-            Returns:
-                Rectanle area
-            """
+        if self.width == 0 or self.height == 0:
+            return 0
 
-            if self.width == 0 or self.height == 0:
-                return 0
-    
-            return (2 * self.width) + (2 * self.height)
+        return (2 * self.width) + (2 * self.height)
