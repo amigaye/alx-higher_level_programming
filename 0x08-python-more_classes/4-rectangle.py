@@ -9,7 +9,6 @@ class Rectangle:
     '''class: Rectangle
     this is an empty class, further additions in subsequent assignments
     '''
-
     def __init__(self, width=0, height=0):
         '''method: __init__
         initialize instance of class Rectangle
