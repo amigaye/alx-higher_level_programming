@@ -2,6 +2,7 @@
 """add attribute
 """
 
+
 def add_attribute(*args):
     """ Function that adds a new attribute to an object
 
