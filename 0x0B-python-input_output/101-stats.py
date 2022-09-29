@@ -34,7 +34,6 @@ class Magic:
             if self.dic[key] is not no 0:
                 print("{}: {:d}".format(key, self.dic[key]))
 
-
 if __name__ == "__main__":
     magic = Magic()
     magic.init_dic()
