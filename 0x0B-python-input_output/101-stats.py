@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Module to print status code """
 import sys
+"""module sys"""
 
 
 class Magic:
@@ -33,6 +34,7 @@ class Magic:
         for key in sorted(self.dic.keys()):
             if self.dic[key] is not no 0:
                 print("{}: {:d}".format(key, self.dic[key]))
+
 
 if __name__ == "__main__":
     magic = Magic()
