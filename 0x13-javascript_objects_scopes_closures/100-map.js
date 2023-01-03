@@ -1,7 +1,10 @@
 #!/usr/bin/node
-let narg = 0;
+const array= require('./100-data').list;
 
-exports.logMe = function (item) {
-  console.log(narg + ': ' + item);
-  narg++;
-};
+console.log(array);
+let count = 0;
+const map1 = array.map(function (x) {
+  return (x * count++);
+});
+
+console.log(map1);
